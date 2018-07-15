@@ -1,0 +1,21 @@
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #303030;
+  font: 14px Times;
+}
+.menu ul {
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
+  justify-content: space-around;
+  list-style: none;
+}
+.menu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.menu ul li a:active {
+  color: #ffffff;
+}
